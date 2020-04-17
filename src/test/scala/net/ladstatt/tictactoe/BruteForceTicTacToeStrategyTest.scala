@@ -9,8 +9,6 @@ import org.junit.Test
   */
 class BruteForceTicTacToeStrategyTest {
 
-  import BruteForceTicTacToeStrategy._
-
   @Test def testThatPlayFunctionReturnsGamesWhichEndedPrematurely(): Unit = {
     val game: TicTacToe = play(TicTacToe(), Seq(BottomLeft, BottomRight, MiddleLeft, MiddleRight, TopLeft, TopRight))
     assertEquals(
