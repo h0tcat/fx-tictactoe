@@ -13,7 +13,7 @@ buildscript {
 apply plugin: 'scala'                       // compile scala sources as well
 apply plugin: 'org.javafxports.jfxmobile'   // let jfxmobile-plugin do its dance
 
-mainClassName = 'net.ladstatt.tictactoe.TicTacToeApp'
+mainClassName = "nori.soft.scene.Main"
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.11.7'
